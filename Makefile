@@ -1,3 +1,4 @@
+# Define options to pass to compiler
 CFLAGS=-Wall -g
 
 all: ex1
