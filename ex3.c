@@ -5,7 +5,7 @@ int main()
 	char given_name[] = "John";
 	char family_name[] = "Harrison";
         char initial = given_name[0];
-	int age;
+	int age = 33;
 	int height_in_cm = 182;
         float cm_in_foot = 183.0 / 6.0;
 	float height_in_feet = height_in_cm / cm_in_foot;
@@ -14,7 +14,7 @@ int main()
 	printf("Age:\v%d years.\n", age);
 	printf("Physical Description:\n");
 	printf("\tHeight in cm: %d\r", height_in_cm);
-	printf("\tHeight in feet: %.2f\n", height_in_feet);
+	printf("\tHeight in feet: %3d\n", height_in_feet);
 	printf("\f\a");
 	return 0;
 }
