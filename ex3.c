@@ -10,10 +10,13 @@ int main()
         float cm_in_foot = 183.0 / 6.0;
 	float height_in_feet = height_in_cm / cm_in_foot;
 
-	printf("My name is %c. %s.\n", initial, family_name);
-	printf("I am %d years old.\n", age);
-	printf("I am %dcm tall.\n", height_in_cm);
-	printf("I am %f feet tall.\n", height_in_feet);
+        printf("Name:\n");
+	printf("\t%c. %s.\n", initial, family_name);
+	printf("Age:\n");
+	printf("\t%d years.\n", age);
+	printf("Physical Description:\n");
+	printf("\tHeight in cm: %d\n", height_in_cm);
+	printf("\tHeight in feet: %f\n", height_in_feet);
 
 	return 0;
 }
