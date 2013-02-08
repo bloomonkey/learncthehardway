@@ -13,7 +13,7 @@ int main()
         printf("Name:\v%c. %s.\n", initial, family_name);
 	printf("Age:\v%d years.\n", age);
 	printf("Physical Description:\n");
-	printf("\tHeight in cm: %d\n", height_in_cm);
+	printf("\tHeight in cm: %d\r", height_in_cm);
 	printf("\tHeight in feet: %f\n", height_in_feet);
 	printf("\f\a");
 	return 0;
