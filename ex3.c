@@ -15,7 +15,7 @@ int main()
 	printf("Physical Description:\n");
 	printf("\tHeight in cm: %d\n", height_in_cm);
 	printf("\tHeight in feet: %f\n", height_in_feet);
-
+	printf("\f\a");
 	return 0;
 }
 
