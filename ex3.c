@@ -14,7 +14,7 @@ int main()
 	printf("Age:\v%d years.\n", age);
 	printf("Physical Description:\n");
 	printf("\tHeight in cm: %d\r", height_in_cm);
-	printf("\tHeight in feet: %3d\n", height_in_feet);
+	printf("\tHeight in feet: %.2f\n", height_in_feet);
 	printf("\f\a");
 	return 0;
 }
