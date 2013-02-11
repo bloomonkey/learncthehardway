@@ -9,7 +9,7 @@ int main(int argc, char *argv[])
     char first_name[] = "John";
     char last_name[] = "Harrison";
 
-    printf("You are %d miles away.\n", distance);
+    printf("You are %x miles away.\n", distance);
     printf("You have %.3f levels of power.\n", power);
     printf("You have %.4f awesome super powers.\n", super_power);
     printf("I have an initial %c.\n", initial);
