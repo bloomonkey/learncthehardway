@@ -21,6 +21,9 @@ ex6:
 ex7:
 	cc $(CFLAGS) ex7.c -o bin/ex7
 
+ex8:
+	cc $(CFLAGS) ex8.c -o bin/ex8
+
 clean:
 	rm -f bin/*
 
